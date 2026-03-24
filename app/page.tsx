@@ -6,11 +6,11 @@ import { Activity, CreditCard, CheckCircle, Shield, ArrowRight, X, Heart } from 
 
 const slides = [
   {
-    icon: <Activity size={32} strokeWidth={2.5} />,
+    icon: <img src="/favicon.png" alt="HealthPay Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '24px' }} />,
     title: 'Welcome to HealthPay',
     description:
       "Nigeria's unified digital healthcare payments and billing platform. Seamless transactions for patients, providers, and insurers.",
-    gradient: 'linear-gradient(135deg, #2563EB 0%, #3B82F6 100%)',
+    gradient: 'transparent',
   },
   {
     icon: <CreditCard size={32} strokeWidth={2.5} />,

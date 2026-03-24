@@ -22,20 +22,7 @@ export default function Header() {
       }}
     >
       <Link href="/home" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: 'inherit' }}>
-        <div
-          style={{
-            width: 40,
-            height: 40,
-            borderRadius: '12px',
-            background: 'linear-gradient(135deg, #2563EB, #3B82F6)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: '0 2px 8px rgba(37,99,235,0.25)',
-          }}
-        >
-          <Activity size={20} color="white" strokeWidth={2.5} />
-        </div>
+        <img src="/favicon.png" alt="HealthPay Logo" style={{ width: 40, height: 40, borderRadius: '12px', objectFit: 'contain' }} />
         <div>
           <h1 style={{ fontSize: '17px', fontWeight: 800, lineHeight: '1.2', letterSpacing: '-0.02em' }}>HealthPay</h1>
           <p style={{ fontSize: '11px', color: '#94A3B8', lineHeight: '1.2', fontWeight: 500 }}>

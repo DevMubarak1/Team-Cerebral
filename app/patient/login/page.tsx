@@ -90,14 +90,7 @@ export default function PatientLoginPage() {
 
         <div style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '40px' }}>
-            <div style={{
-              width: 44, height: 44, borderRadius: '12px',
-              background: 'linear-gradient(135deg, #2563EB, #3B82F6)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              boxShadow: '0 4px 12px rgba(37,99,235,0.3)',
-            }}>
-              <Activity size={22} color="white" strokeWidth={2.5} />
-            </div>
+            <img src="/favicon.png" alt="HealthPay Logo" style={{ width: 44, height: 44, borderRadius: '12px', objectFit: 'contain' }} />
             <h1 style={{ fontSize: '24px', fontWeight: 800, color: 'white', letterSpacing: '-0.03em' }}>HealthPay</h1>
           </div>
 
@@ -131,13 +124,7 @@ export default function PatientLoginPage() {
           </button>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
-            <div className="lg-only-hide" style={{
-              width: 36, height: 36, borderRadius: '10px',
-              background: 'linear-gradient(135deg, #2563EB, #3B82F6)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-            }}>
-              <Activity size={18} color="white" />
-            </div>
+            <img src="/favicon.png" alt="HealthPay Logo" className="lg-only-hide" style={{ width: 36, height: 36, borderRadius: '10px', objectFit: 'contain' }} />
             <h2 style={{ fontSize: '26px', fontWeight: 800, letterSpacing: '-0.03em' }}>
               {isSignup ? 'Create Account' : 'Welcome Back'}
             </h2>

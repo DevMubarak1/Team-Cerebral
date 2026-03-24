@@ -133,14 +133,7 @@ export default function ProviderLoginPage() {
 
         <div style={{ position: 'relative', zIndex: 10 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '48px' }}>
-            <div style={{
-              width: 48, height: 48, borderRadius: '14px',
-              background: 'linear-gradient(135deg, #10B981, #34D399)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              boxShadow: '0 4px 16px rgba(16,185,129,0.4)',
-            }}>
-              <Activity size={24} color="white" strokeWidth={2.5} />
-            </div>
+            <img src="/favicon.png" alt="HealthPay Logo" style={{ width: 48, height: 48, borderRadius: '14px', objectFit: 'contain' }} />
             <div>
               <h2 style={{ fontSize: '20px', fontWeight: 800, color: 'white', letterSpacing: '-0.02em' }}>HealthPay</h2>
               <p style={{ fontSize: '12px', color: '#64748B' }}>Provider Portal</p>
@@ -184,13 +177,7 @@ export default function ProviderLoginPage() {
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '36px' }}
             className="show-mobile"
           >
-            <div style={{
-              width: 40, height: 40, borderRadius: '12px',
-              background: 'linear-gradient(135deg, #10B981, #34D399)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-            }}>
-              <Activity size={20} color="white" strokeWidth={2.5} />
-            </div>
+            <img src="/favicon.png" alt="HealthPay Logo" style={{ width: 40, height: 40, borderRadius: '12px', objectFit: 'contain' }} />
             <div>
               <h2 style={{ fontSize: '17px', fontWeight: 800 }}>HealthPay</h2>
               <p style={{ fontSize: '11px', color: '#94A3B8' }}>Provider Portal</p>
