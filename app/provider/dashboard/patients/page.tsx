@@ -24,21 +24,22 @@ export default function PatientsPage() {
 
     if (appointments && appointments.length > 0) {
       const patientMap = new Map<string, PatientInfo>();
-      appointments.forEach((a: { patient_name: string; appointment_date: string; service?: { name: string; price: number } | null }) => {
+      appointments.forEach((a: any) => {
+        const service = Array.isArray(a.service) ? a.service[0] : a.service;
         const existing = patientMap.get(a.patient_name);
         if (existing) {
           existing.visits += 1;
-          existing.totalSpent += a.service?.price || 0;
-          if (a.service?.name && !existing.services.includes(a.service.name)) {
-            existing.services.push(a.service.name);
+          existing.totalSpent += service?.price || 0;
+          if (service?.name && !existing.services.includes(service.name)) {
+            existing.services.push(service.name);
           }
         } else {
           patientMap.set(a.patient_name, {
             name: a.patient_name,
             visits: 1,
             lastVisit: a.appointment_date,
-            totalSpent: a.service?.price || 0,
-            services: a.service?.name ? [a.service.name] : [],
+            totalSpent: service?.price || 0,
+            services: service?.name ? [service.name] : [],
           });
         }
       });
