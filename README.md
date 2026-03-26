@@ -7,6 +7,8 @@
 |---|---|---|
 | **MUBARAK RAJI** | Full-Stack Developer | Built the patient and provider dashboards, booking flow, payment integration (Interswitch Inline Checkout + server-side verification), Supabase schema design, RLS policies, and API routes |
 
+| **OLADELE OLAWALE** | Research & Documentation | Competitive research, user stories, and wrote the project documentation and README |
+
 # 🏥 HealthPay
 
 **Healthcare Payments Made Simple** — A full-stack digital healthcare payment and appointment platform built for the [Enyata Buildathon 2026](https://buildathon.enyata.com/).
