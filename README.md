@@ -9,7 +9,7 @@
 | **OLADELE OLAWALE** | Research & Documentation | Competitive research, user stories, and wrote the project documentation and README |
 | *OGUNTUYI AISHA* | UI/UX Designer | Designed all screens, user flows, and visual identity — including patient portal, provider dashboard, and booking experience |(Wasn't able to register for the hackathon due to team limit)
 | *RAMADAN ONI* | Project Manager | Coordinated team tasks, managed timelines and deliverables, facilitated communication, and ensured the project met buildathon requirements |
-
+| **ADAM MORUFAT** | QA/Tester | Wrote and executed test cases for the booking flow, payment scenarios, and dashboard features; verified Interswitch sandbox transactions and reported bugs |
 > Every listed member actively contributed to delivering HealthPay within the buildathon timeline.
 
 # 🏥 HealthPay
