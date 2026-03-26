@@ -6,7 +6,6 @@
 | Name | Role | Contributions |
 |---|---|---|
 | **MUBARAK RAJI** | Full-Stack Developer | Built the patient and provider dashboards, booking flow, payment integration (Interswitch Inline Checkout + server-side verification), Supabase schema design, RLS policies, and API routes |
-
 | **OLADELE OLAWALE** | Research & Documentation | Competitive research, user stories, and wrote the project documentation and README |
 
 # 🏥 HealthPay
