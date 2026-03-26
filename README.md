@@ -1,6 +1,11 @@
 <p align="center">
   <img src="public/favicon.png" alt="HealthPay Logo" width="80" height="80" style="border-radius: 16px;" />
 </p>
+## 👥 Team CEREBRAL
+
+| Name | Role | Contributions |
+|---|---|---|
+| **MUBARAK RAJI** | Full-Stack Developer | Built the patient and provider dashboards, booking flow, payment integration (Interswitch Inline Checkout + server-side verification), Supabase schema design, RLS policies, and API routes |
 
 # 🏥 HealthPay
 
