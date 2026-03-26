@@ -8,7 +8,10 @@
 | **MUBARAK RAJI** | Full-Stack Developer | Built the patient and provider dashboards, booking flow, payment integration (Interswitch Inline Checkout + server-side verification), Supabase schema design, RLS policies, and API routes |
 | **OLADELE OLAWALE** | Research & Documentation | Competitive research, user stories, and wrote the project documentation and README |
 | *OGUNTUYI AISHA* | UI/UX Designer | Designed all screens, user flows, and visual identity — including patient portal, provider dashboard, and booking experience |(Wasn't able to register for the hackathon due to team limit)
-| *RAMADAN* | Project Manager | Coordinated team tasks, managed timelines and deliverables, facilitated communication, and ensured the project met buildathon requirements |
+| *RAMADAN ONI* | Project Manager | Coordinated team tasks, managed timelines and deliverables, facilitated communication, and ensured the project met buildathon requirements |
+
+> Every listed member actively contributed to delivering HealthPay within the buildathon timeline.
+
 # 🏥 HealthPay
 
 **Healthcare Payments Made Simple** — A full-stack digital healthcare payment and appointment platform built for the [Enyata Buildathon 2026](https://buildathon.enyata.com/).
